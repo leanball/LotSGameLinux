@@ -42,7 +42,7 @@ python3 LotSClient.py
 ### **Windows**
 For the Windows version click Use the link below:
 
-[**here**](https://github.com/leanball/LotSGame)
+[**https://github.com/leanball/LotSGame**](https://github.com/leanball/LotSGame)
 
 ---
 
