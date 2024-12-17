@@ -1,9 +1,19 @@
 # LotSGame Launcher Installer
 
-This repository contains the **LotSGame Launcher Installer**, currently in development.
+### **Linux**
 
-## 📥 Installer Download
+#### Recommended Installation
 
+**1. Open the terminal.**
+
+**2. Create a directory for the game in your home folder:**
+
+```bash
+mkdir -p "$HOME/leanballgames"
+cd "$HOME/leanballgames"
+```
+
+**3. Create a directory for the game in your home folder:**
 ### **Windows**
 Testers can download the installer directly from the link below:  
 [**LotSInstall.msi**](https://github.com/leanball/LotSGame/raw/refs/heads/main/LotSInstall.msi)  
@@ -37,7 +47,7 @@ The Linux version will be available soon. Stay tuned for updates in this reposit
 
 ---
 
-## 🚀 About the Project
+## About the Project
 
 The launcher is currently in **development** and may undergo changes and improvements over time. If you encounter any issues, feel free to open an [Issue](https://github.com/leanball/LotSGame/issues) or contribute.
 
