@@ -1,8 +1,10 @@
 # LotSGame Launcher Installer
 
-### **Linux**
+This repository contains the **LotSGame Launcher Installer**, currently in development.
 
-#### Recommended Installation
+## 📥 Installer Download
+
+### **Linux**
 
 **1. Open the terminal.**
 
