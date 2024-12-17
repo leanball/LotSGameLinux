@@ -5,7 +5,7 @@
 
 # Initial configuration
 REQUIRED_PYTHON="3.6"
-REQUIRED_PACKAGES=("python3-gi" "git" "python3-git" "python3-manimpango" "xdg-utils" "desktop-file-utils")
+REQUIRED_PACKAGES=("python3-gi" "git" "python3-git"  "xdg-utils" "desktop-file-utils")
 LAUNCHER_URL="https://github.com/leanball/LotSGameLinux/raw/refs/heads/main/lotslauncherlinux.tar.gz"
 ARCHIVE_NAME="lotslauncherlinux.tar.gz"
 LAUNCHER_NAME="LotSLauncher.desktop"
@@ -95,7 +95,22 @@ download_and_extract_launcher() {
     rm -f "$ARCHIVE_NAME"
     print_success "Launcher extracted successfully."
 }
+# Function to install fonts
+install_fonts() {
+    FONT_DIR="Resources"
+    LOCAL_FONT_DIR="$HOME/.local/share/fonts"
 
+    print_header "Installing Fonts"
+
+    if [ -d "$FONT_DIR" ]; then
+        mkdir -p "$LOCAL_FONT_DIR"
+        cp "$FONT_DIR"/*.ttf "$LOCAL_FONT_DIR/"
+        fc-cache -f -v >/dev/null 2>&1
+        print_success "Fonts installed successfully."
+    else
+        print_warning "Font directory not found: $FONT_DIR. Skipping font installation."
+    fi
+}
 # Function to create a universal launcher
 create_launcher() {
     CURRENT_DIR=$(pwd)
@@ -140,6 +155,9 @@ main() {
 
     # Download and extract the launcher
     download_and_extract_launcher
+
+    # Install fonts
+    install_fonts
 
     # Create universal desktop launcher
     create_launcher
