@@ -21,10 +21,21 @@ cd "$HOME/leanballgames"
 ```
 *   **With administrative access** (installs system packages):
 ```bash
-mkdir -p "$HOME/leanballgames"
-cd "$HOME/leanballgames"
+./setup.sh
+```
+*   **Without administrative access** (installs locally via pip):
+```bash
+./setup.sh --no-sudo
 ```
 
+After installation, the launcher will be created in your **Desktop** folder. If not, you can copy it manually:
+```bash
+cp LotSLauncher.desktop ~/Desktop/
+```
+To run the game, use the launcher or the following command:
+```bash
+python3 LotSClient.py
+```
 ---
 ### **Windows**
 For the Windows version will click Use the link below:
@@ -35,11 +46,6 @@ For the Windows version will click Use the link below:
 ### **Android**
 For Android devices, the launcher is available for testers via Google Play. Use the link below:  
 [**Google Play (Testing Version)**](https://play.google.com/apps/internaltest/4700379673975068225)
-
----
-
-### **Linux**
-The Linux version will be available soon. Stay tuned for updates in this repository.
 
 ---
 
