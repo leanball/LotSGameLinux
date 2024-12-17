@@ -10,17 +10,17 @@ This repository contains the **LotSGame Launcher Installer**, currently in devel
 
 **2. Create a directory for the game in your home folder:**
 
-
-mkdir -p "$HOME/leanballgames"
-cd "$HOME/leanballgames"
-
-
-**3. Download the installer:**
-
 ```bash
 mkdir -p "$HOME/leanballgames"
 cd "$HOME/leanballgames"
 ```
+
+**3. Download the installer:**
+```bash
+wget https://raw.githubusercontent.com/leanball/LotSGameLinux/refs/heads/main/setup.sh
+chmod +x setup.sh
+```
+
 *   **With administrative access** (installs system packages):
 ```bash
 ./setup.sh
