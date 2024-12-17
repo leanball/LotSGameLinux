@@ -8,31 +8,27 @@
 
 **2. Create a directory for the game in your home folder:**
 
+
+mkdir -p "$HOME/leanballgames"
+cd "$HOME/leanballgames"
+
+
+**3. Download the installer:**
+
+```bash
+mkdir -p "$HOME/leanballgames"
+cd "$HOME/leanballgames"
+```
+*   **With administrative access** (installs system packages):
 ```bash
 mkdir -p "$HOME/leanballgames"
 cd "$HOME/leanballgames"
 ```
 
-**3. Create a directory for the game in your home folder:**
+---
 ### **Windows**
-Testers can download the installer directly from the link below:  
-[**LotSInstall.msi**](https://github.com/leanball/LotSGame/raw/refs/heads/main/LotSInstall.msi)  
-
-## Important: Windows SmartScreen  
-🛡️ **Security Warning**  
-The installer is official, but **Windows SmartScreen** may display a warning due to the lack of a digital signature. This is common for software in development.  
-To proceed, click **"More Info"** and then **"Run Anyway"**.  
-
-Once the official game website is launched, we will create the necessary digital certificates to sign the installer. This warning will **no longer appear** in the future.  
-
-If Windows displays a "Unknown Publisher" warning:  
-1. Click **"More Info"**.  
-2. Select **"Run Anyway"**.  
-
-After downloading the installer:  
-1. Choose the folder where the **game client** will be installed.  
-2. Whenever you run the **launcher**, the game client will be **automatically updated**.  
-3. **Game assets** will be downloaded during gameplay, ensuring you always have the latest version.  
+For the Windows version will click Use the link below:
+[**here**](https://github.com/leanball/LotSGame)
 
 ---
 
