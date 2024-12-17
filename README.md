@@ -40,13 +40,15 @@ python3 LotSClient.py
 ```
 ---
 ### **Windows**
-For the Windows version will click Use the link below:
+For the Windows version click Use the link below:
+
 [**here**](https://github.com/leanball/LotSGame)
 
 ---
 
 ### **Android**
 For Android devices, the launcher is available for testers via Google Play. Use the link below:  
+
 [**Google Play (Testing Version)**](https://play.google.com/apps/internaltest/4700379673975068225)
 
 ---
