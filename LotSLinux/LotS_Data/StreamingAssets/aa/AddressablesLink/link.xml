@@ -1,6 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.Examples.ObjectSpin" preserve="all" />
+    <type fullname="UnityEngine.UI.Extensions.UIParticleSystem" preserve="all" />
   </assembly>
   <assembly fullname="LeanBallGames.Audio, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="LeanBallGames.Audio.AudioConfigurationSO" preserve="all" />
@@ -21,7 +22,6 @@
     <type fullname="LeanBallGames.Core.Events.FPSEventChannelSO" preserve="all" />
     <type fullname="LeanBallGames.Core.Events.InternetConnectionChannelSO" preserve="all" />
     <type fullname="LeanBallGames.Core.Events.IntEventChannelSO" preserve="all" />
-    <type fullname="LeanBallGames.Core.Events.IntEventListener" preserve="all" />
     <type fullname="LeanBallGames.Core.Events.LoadEventChannelSO" preserve="all" />
     <type fullname="LeanBallGames.Core.Events.VoidEventChannelSO" preserve="all" />
     <type fullname="LeanBallGames.Core.GameData.Addressables.AddressableDownloadManager" preserve="all" />
@@ -36,16 +36,23 @@
     <type fullname="LeanBallGames.Core.SaveSystem.SaveManagerSO" preserve="all" />
     <type fullname="LeanBallGames.Core.SceneManagement.FadeController" preserve="all" />
     <type fullname="LeanBallGames.Core.SceneManagement.GameplaySO" preserve="all" />
+    <type fullname="LeanBallGames.Core.SceneManagement.GenericFade" preserve="all" />
     <type fullname="LeanBallGames.Core.SceneManagement.InitializationLoader" preserve="all" />
     <type fullname="LeanBallGames.Core.SceneManagement.MenuSO" preserve="all" />
     <type fullname="LeanBallGames.Core.SceneManagement.SceneLoader" preserve="all" />
+    <type fullname="LeanBallGames.Core.Events.CallbackHandler/CallbackEvent" preserve="nothing" serialized="true" />
+    <type fullname="LeanBallGames.Core.Events.CallbackHandler/Entry" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="LeanBallGames.UI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="LeanBallGames.UI.Component.DialogBox" preserve="all" />
     <type fullname="LeanBallGames.UI.Component.UIWindow" preserve="all" />
+    <type fullname="LeanBallGames.UI.Events.Components.DialogBoxEventChannelSO" preserve="all" />
     <type fullname="LeanBallGames.UI.Themes.ButtonProfileSO" preserve="all" />
     <type fullname="LeanBallGames.UI.Themes.ButtonThemeApplier" preserve="all" />
     <type fullname="LeanBallGames.UI.Themes.ImageProfileSO" preserve="all" />
     <type fullname="LeanBallGames.UI.Themes.ImageThemeApplier" preserve="all" />
+    <type fullname="LeanBallGames.UI.Themes.PrefabProfileSO" preserve="all" />
+    <type fullname="LeanBallGames.UI.Themes.PrefabThemeApplier" preserve="all" />
     <type fullname="LeanBallGames.UI.Themes.RuntimeThemeManager" preserve="all" />
     <type fullname="LeanBallGames.UI.Themes.ThemeCatalogSO" preserve="all" />
     <type fullname="LeanBallGames.UI.Themes.TMPProfileSO" preserve="all" />
@@ -54,11 +61,8 @@
     <type fullname="LeanBallGames.UI.UISpinner" preserve="all" />
     <type fullname="LeanBallGames.UI.Utility.BuildInfoDisplay" preserve="all" />
     <type fullname="LeanballGames.UI.Utility.MultipleSelect" preserve="all" />
-    <type fullname="LeanballGames.UI.Utility.MultipleSelect/MultipleSelectEvent" preserve="nothing" serialized="true" />
     <type fullname="LeanBallGames.UI.Themes.ButtonProfileSO/MultipleSelectEventConfig" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="PlayFab, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="PlayFab.Internal.PlayFabHttp" preserve="all" />
+    <type fullname="LeanballGames.UI.Utility.MultipleSelect/MultipleSelectEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -160,9 +164,6 @@
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.GlyphAnchorPoint" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.MarkPositionAdjustment" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.MarkToBaseAdjustmentRecord" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
@@ -193,9 +194,11 @@
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
@@ -210,7 +213,7 @@
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
-    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
@@ -220,7 +223,6 @@
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
