@@ -42,8 +42,6 @@
     <type fullname="LeanBallGames.Core.UI.Utility.FadeScreenController" preserve="all" />
     <type fullname="LeanBallGames.Core.UI.Utility.QuitApplicationController" preserve="all" />
     <type fullname="LeanBallGames.Core.UI.Utility.UISpinner" preserve="all" />
-    <type fullname="LoginController" preserve="all" />
-    <type fullname="UILogin" preserve="all" />
     <type fullname="LeanBallGames.Core.DeviceData.InputDeviceSetConfiguration/DeviceSet" preserve="nothing" serialized="true" />
     <type fullname="LeanBallGames.Core.Actions.QuitApplication" preserve="nothing" serialized="true" />
     <type fullname="LeanBallGames.Core.Actions.UI.FadeCanvasGroup" preserve="nothing" serialized="true" />
