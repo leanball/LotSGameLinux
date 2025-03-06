@@ -1,27 +1,7 @@
 <linker>
-  <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogManager" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogPopup" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogRecycledListView" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogResizeListener" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugsOnScrollListener" preserve="all" />
-    <type fullname="IngameDebugConsole.InputFieldWarningsFixer" preserve="all" />
-  </assembly>
   <assembly fullname="LeanBallGames.Audio, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="LeanBallGames.Audio.AudioConfigurationSO" preserve="all" />
     <type fullname="LeanBallGames.Audio.AudioCue.MusicAudioCueSO" preserve="all" />
-    <type fullname="LeanBallGames.Audio.AudioCue.UIAudioCueSO" preserve="all" />
-    <type fullname="LeanBallGames.Audio.Emitters.MusicEmitter" preserve="all" />
-    <type fullname="LeanBallGames.Audio.Emitters.SoundEmitterFactorySO" preserve="all" />
-    <type fullname="LeanBallGames.Audio.Emitters.SoundEmitterPoolSO" preserve="all" />
-    <type fullname="LeanBallGames.Audio.Emitters.UIAudioEmitter" preserve="all" />
     <type fullname="LeanBallGames.Audio.Events.AudioCueEventChannelSO" preserve="all" />
-    <type fullname="LeanBallGames.Audio.Managers.AudioManager" preserve="all" />
-    <type fullname="LeanBallGames.Audio.Managers.MusicAudioManager" preserve="all" />
-    <type fullname="LeanBallGames.Audio.Managers.UIAudioManager" preserve="all" />
-    <type fullname="LeanBallGames.Audio.Players.MusicPlayer" preserve="all" />
-    <type fullname="LeanBallGames.Audio.Players.UIAudioPlayer" preserve="all" />
     <type fullname="LeanBallGames.Audio.Actions.ChangeMusicPlaylist" preserve="nothing" serialized="true" />
     <type fullname="LeanBallGames.Audio.Actions.PlayMusic" preserve="nothing" serialized="true" />
     <type fullname="LeanBallGames.Audio.Actions.PlayUIAudio" preserve="nothing" serialized="true" />
@@ -47,19 +27,12 @@
     <type fullname="LeanBallGames.Core.Events.InternetConnectionChannelSO" preserve="all" />
     <type fullname="LeanBallGames.Core.Events.LoadEventChannelSO" preserve="all" />
     <type fullname="LeanBallGames.Core.Events.VoidEventChannelSO" preserve="all" />
-    <type fullname="LeanBallGames.Core.GameData.Addressables.AddressableDownloadManager" preserve="all" />
-    <type fullname="LeanBallGames.Core.GameData.Addressables.AddressablesDownloadController" preserve="all" />
-    <type fullname="LeanBallGames.Core.GameData.Addressables.GitHubWebRequestOverride" preserve="all" />
     <type fullname="LeanBallGames.Core.GameData.AndroidIAPExample" preserve="all" />
     <type fullname="LeanBallGames.Core.GameData.FPSController" preserve="all" />
     <type fullname="LeanBallGames.Core.GameData.GameConfigSO" preserve="all" />
-    <type fullname="LeanBallGames.Core.GameData.GameManager" preserve="all" />
-    <type fullname="LeanBallGames.Core.GameData.LoginManager" preserve="all" />
     <type fullname="LeanBallGames.Core.GameData.PlayFabServiceSO" preserve="all" />
-    <type fullname="LeanBallGames.Core.Network.InternetConnectionManager" preserve="all" />
     <type fullname="LeanBallGames.Core.Rendering.VolumeProfileManager" preserve="all" />
     <type fullname="LeanBallGames.Core.SceneManagement.GameplaySO" preserve="all" />
-    <type fullname="LeanBallGames.Core.SceneManagement.InitializationLoader" preserve="all" />
     <type fullname="LeanBallGames.Core.SceneManagement.LoadingSceneProgressController" preserve="all" />
     <type fullname="LeanBallGames.Core.SceneManagement.LocationSO" preserve="all" />
     <type fullname="LeanBallGames.Core.SceneManagement.MenuSO" preserve="all" />
@@ -82,21 +55,6 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="Unity.InputSystem, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.PlayerInput" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.PlayerInput/ActionEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.PlayerInput/DeviceLostEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Localization.Components.LocalizeStringEvent" preserve="all" />
@@ -181,15 +139,8 @@
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
-  </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
-    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
     <type fullname="UnityEngine.AudioClip" preserve="all" />
-    <type fullname="UnityEngine.AudioListener" preserve="all" />
-    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
@@ -224,8 +175,6 @@
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
@@ -233,12 +182,7 @@
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
-    <type fullname="UnityEngine.UI.InputField" preserve="all" />
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
-    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
-    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
-    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
-    <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
@@ -246,14 +190,6 @@
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
