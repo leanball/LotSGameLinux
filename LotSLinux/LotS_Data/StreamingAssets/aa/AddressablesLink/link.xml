@@ -12,6 +12,7 @@
   <assembly fullname="LeanBallGames.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="LeanBallGames.Core.Actions.ActionTemplateMono" preserve="all" />
     <type fullname="LeanBallGames.Core.Actions.Triggers.SequenceTrigger" preserve="all" />
+    <type fullname="LeanBallGames.Core.DeviceData.CanvasScalerController" preserve="all" />
     <type fullname="LeanBallGames.Core.DeviceData.CurrentInputDeviceController" preserve="all" />
     <type fullname="LeanBallGames.Core.DeviceData.CurrentInputDeviceListener" preserve="all" />
     <type fullname="LeanBallGames.Core.DeviceData.DeviceDataSO" preserve="all" />
