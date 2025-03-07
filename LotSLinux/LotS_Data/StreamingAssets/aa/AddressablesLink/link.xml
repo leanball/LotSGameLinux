@@ -39,6 +39,7 @@
     <type fullname="LeanBallGames.Core.DeviceData.GraphicsSettingsSO" preserve="all" />
     <type fullname="LeanBallGames.Core.DeviceData.InputDeviceDisplaySettings" preserve="all" />
     <type fullname="LeanBallGames.Core.DeviceData.InputDeviceSetConfiguration" preserve="all" />
+    <type fullname="LeanBallGames.Core.DeviceData.LocalizationSettingsSO" preserve="all" />
     <type fullname="LeanBallGames.Core.Events.AddressablesDownloadEventChannelSO" preserve="all" />
     <type fullname="LeanBallGames.Core.Events.BoolEventChannelSO" preserve="all" />
     <type fullname="LeanBallGames.Core.Events.FadeChannelSO" preserve="all" />
@@ -69,6 +70,7 @@
     <type fullname="LeanBallGames.Core.UI.Utility.FadeScreenController" preserve="all" />
     <type fullname="LeanBallGames.Core.UI.Utility.QuitApplicationController" preserve="all" />
     <type fullname="LeanBallGames.Core.UI.Utility.UISpinner" preserve="all" />
+    <type fullname="LeanBallGames.Core.DeviceData.LocalizationSettingsSO/LocaleEntry" preserve="nothing" serialized="true" />
     <type fullname="LeanBallGames.Core.DeviceData.InputDeviceSetConfiguration/DeviceSet" preserve="nothing" serialized="true" />
     <type fullname="LeanBallGames.Core.Actions.QuitApplication" preserve="nothing" serialized="true" />
     <type fullname="LeanBallGames.Core.Actions.UI.FadeCanvasGroup" preserve="nothing" serialized="true" />
